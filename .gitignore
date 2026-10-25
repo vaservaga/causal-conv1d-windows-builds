@@ -1,0 +1,31 @@
+# Python environments and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build products and package artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+*.pyd
+*.obj
+*.lib
+*.exp
+
+# CUDA and profiling output
+*.cubin
+*.ncu-rep
+*.ncu-repz
+
+# Local evidence, logs, and backups
+backups/
+audit*/
+*.log
+
+# Editor and operating-system files
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
